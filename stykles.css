@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ header{
+   margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to  left, #05c70fa1, #287A2C);
+    border-radius: 5px;
+    }
+
+
+
+  .titulo{
+    font-family: 'Work Sans', sans-serif;
+  }
+
+
+  .menucontacts{
+   margin-left: 8px;
+  }
+
+a{
+  color: #031a04;
+  font-size: 20px;
+}
+
+a:hover{
+  transition: 0.5;
+  color: #287a2cb4;
+}
+
+body{
+  background-color: #53fb5b7a;
+}
+
+
+main{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-right: 40px;
+
+}
+
+.titulofoto{
+  font-size: 27px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-seri;
+  font-weight: 600;
+  color: #205523;
+  font-weight: 800;
+
+}
+
+img{
+  border-radius: 50%;
+}
+
+.importante{
+  margin-top: 90px;
+}
+
+.aparência{
+  text-align: center;
+}
+
+.tituloprincipal{
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.paragrafoprincipal{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(41, 28, 28);
+  font-weight: 600;
+}
+
+h2{
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+
+h3{
+  margin-top: 10px;
+  margin-bottom: 7px;
+
+}
+
+.essencial{
+  margin-top: 90px;
+  background-color: #17a11ece;
+  margin-bottom: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+.emaillink{
+  text-decoration: none;
+}
+
+.primeiro{
+   background-color: #53fb5bc4;
+   padding: 10px;
+}
+
+.segundo{
+  background-color: #07fa13b4;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(41, 28, 28);
+  font-weight: 600;
+}
+
+.terceiro{
+  background-color: #16cf1fdc;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(41, 28, 28);
+  font-weight: 600;
+}
+
+
+@media (max-width: 896px) {
+    main{
+      display: block;
+   }
+
+
+
+}
+
+
+/*#53FB5B
+#07FA14
+#287A2C
+#05C70E*/
